@@ -1,0 +1,32 @@
+{
+  "name": "curso-mongo-db",
+  "version": "1.0.0",
+  "description": "API REST del curso de mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvag/CursoMongoDB.git"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "Max Alva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvag/CursoMongoDB/issues"
+  },
+  "homepage": "https://github.com/alvag/CursoMongoDB#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  }
+}
